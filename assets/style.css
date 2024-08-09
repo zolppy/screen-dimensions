@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #ccc;
+  color: #3c3c3c;
+  display: grid;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: 100dvh;
+  letter-spacing: 0;
+  line-height: 1.25;
+  place-items: center;
+  width: 100dvw;
+}
+
+span {
+  font-weight: bold;
+}
+
+.device {
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  height: 70dvh;
+  position: relative;
+  width: 70dvw;
+  padding: 0.5em;
+}
+
+.device__height {
+  position: absolute;
+  transform: translateX(-50%) rotate(90deg);
+  right: -3ch;
+  top: 50%;
+}
+
+.device__width {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+.device__dimensions {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
